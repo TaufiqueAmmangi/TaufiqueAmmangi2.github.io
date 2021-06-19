@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+
+*{
+  font-family: 'Nunito', sans-serif;
+}
+
+.ad{
+    background-color: #ed6456;
+}
+
+.txtClr{
+    color:#ed6456;
+}
+
+.sizer {
+    width: 500px;
+  }
+
+  .section-bg {
+    background: #e53935;
+    background: -webkit-linear-gradient(to top, #e35d5b, #e74441);
+    background: linear-gradient(to top, #e35d5b, #e74441);
+    
+
+}
+
+.trreIcons{
+  position: absolute;
+  /* width: 60.78px; */
+  width: 90px;
+  height: auto;
+  /* height: 75.93px; */
+  left: 0px;
+  top: 60px;
+}
+
+.colapseBG{
+    background-color:#F7FDFF!important;
+}
+
+.card-header{
+    border-bottom: none;
+}
+.colapseTxt{
+    color:#384248
+}
+
+.iIcons{
+    top: 26px;
+    position: absolute;
+    right: 15px;
+}
+ 
+
+.section-hood {
+    background: #F7FDFF;
+
+}
+
+.carousel-inner .active.left {
+    left: -33%;
+  }
+
+  .carousel-inner .next {
+    left: 33%;
+  }
+
+  .carousel-inner .prev {
+    left: -33%;
+  }
+
+  .carousel-control.left,
+  .carousel-control.right {
+    background-image: none;
+  }
+
+  .carousel-multi .carousel-inner>.item {
+    transition: 500ms ease-in-out left;
+  }
+
+  .carousel-multi .carousel-inner>.item>.media-card {
+    background: #333;
+    border-right: 10px solid #fff;
+    display: table-cell;
+    width: 1%;
+  }
+
+  .carousel-multi .carousel-inner>.item>.media-card:last-of-type {
+    border-right: none;
+  }
+
+  .carousel-multi .carousel-inner .active {
+    display: table;
+  }
+
+  .carousel-multi .carousel-inner .active.left {
+    left: -33%;
+  }
+
+  .carousel-multi .carousel-inner .active.right {
+    left: 33%;
+  }
+
+  .carousel-multi .carousel-inner .next {
+    left: 33%;
+  }
+
+  .carousel-multi .carousel-inner .prev {
+    left: -33%;
+  }
+
+  @media all and (transform-3d),
+  (-webkit-transform-3d) {
+    .carousel-multi .carousel-inner>.item {
+      transition: 500ms ease-in-out all;
+      backface-visibility: visible;
+      transform: none!important;
+    }
+  }
+
+
+
+  /*  */
+
+  .blog .carousel-indicators {
+	left: 0;
+	top: auto;
+    bottom: -40px;
+
+}
+
+/* The colour of the indicators */
+.blog .carousel-indicators li {
+    background: #F9C2BC;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+}
+.carousel-indicators{
+    background: #FDEAE8;
+    width: 10%;
+    padding: 15px;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+
+.blog .carousel-indicators .active {
+    background: #F48278;
+}
+
+  .bW{ 
+    width: 20% !important;
+    margin:0 auto;
+}
+
+.spTxt{
+    color:#F27264
+}
+
+ 
+.section-bg2{ 
+    background-image: url(../img/Bb.svg); 
+}
+
+ 
+.dropdown-toggle::after { 
+display: none;
+} 
+
+
+.navTxt{
+  color:#384248 !important;
+}
+
+.f-12px{font-size: 12px;}
+
+.b-brdr{border:1px solid #AE3225}
+.b-rd{background-color:#ed6456; color:white}
+
+.fv{
+  font-size: 13px ;
+}
+
+.videos {
+  margin: 0px auto;
+  max-width: 700px;
+}
+/* Individual video container */
+.video-wrap {
+  position: relative;
+    max-width: 700px;
+    width: 170%;
+    margin-bottom: 10px;
+}
+.video-wrap .placeholder {
+  max-width: 700px;
+  width: 100%;
+}
+.video-wrap .play-btn {
+  position: absolute;
+  max-width: 700px;
+  width: 100px;
+  height: 100px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 1; /* needed if using Bootstrap */
+  text-align: center;
+  color: #eaeaea;
+  background-color: rgba(255,255,255,.4);
+  border-radius: 50px;
+  transition: color, background-color .2s ease;
+}
+.video-wrap .play-btn:hover,
+.video-wrap .play-btn:focus {
+  color: #000;
+  background-color: rgba(255,255,255,.8);
+  cursor: pointer;
+}
+.play-btn::after {
+  /*
+  Font Awesome recommends these styles
+  https://fontawesome.com/how-to-use/on-the-web/advanced/css-pseudo-elements
+  */
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  /*
+  Define the font family, weight, and icon
+  */
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 60px;
+  content: "\f04b";
+  /* positioning tweaks */
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+.btnSub{
+  background-color: #73CBF2 !important;
+  border:1px solid #3B85A6;
+  color:#fff;
+}
+ 
+ 
+ 
+
+
+ .navbar-toggler{
+  background: #f3716469!important;
+  position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-right: 15px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+ } 
+
+ .navbar-toggler .icon-bar {
+  background-color: #fff;
+}
+.navbar-toggler .icon-bar+.icon-bar {
+  margin-top: 4px;
+}
+.navbar-toggler .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+}
+
+.trspnrtBG{
+  background: transparent;
+}
+.brdr-0{border: 0 !important;}
+ 
+.form-control{
+  border:1px solid #AE3225;
+}
+.form-control:focus{
+  border:1px solid #AE3225 !important;
+  box-shadow: 0 0 0 0.2rem rgb(255 0 0 / 25%) !important;
+}
+
+.ftrTxt{
+  color:#707E8A;
+}
+ 
+
+ 
+

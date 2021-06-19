@@ -1,0 +1,19 @@
+@media only screen and (min-width : 300px) and (max-width :900px){
+    .fv{font-size:6px;}
+    .videos {
+      margin: 0px auto;
+      max-width: 100px;
+    }
+    .video-wrap .play-btn{
+      width: 60px;
+      height: auto;
+    }
+    .play-btn::after{
+      font-size: 32px;
+      padding-top: 30px;
+      padding-top: 10px;
+      padding-left: 10px;
+      padding-bottom: 10px;
+    }
+    
+    }
